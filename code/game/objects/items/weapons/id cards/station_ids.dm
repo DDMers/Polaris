@@ -131,33 +131,12 @@
 	icon_state = "silver"
 	item_state = "silver_id"
 
-/obj/item/weapon/card/id/silver/secretary
-	assignment = "Command Secretary"
-	rank = "Command Secretary"
-	job_access_type = /datum/job/secretary
-
-/obj/item/weapon/card/id/silver/hop
-	assignment = "Head of Personnel"
-	rank = "Head of Personnel"
-	job_access_type = /datum/job/hop
-
 /obj/item/weapon/card/id/gold
 	name = "identification card"
 	desc = "A golden card which shows power and might."
 	icon_state = "gold"
 	item_state = "gold_id"
 	preserve_item = 1
-
-/obj/item/weapon/card/id/gold/captain
-	assignment = "Colony Director"
-	rank = "Colony Director"
-	job_access_type = /datum/job/captain
-
-/obj/item/weapon/card/id/gold/captain/spare
-	name = "\improper Colony Director's spare ID"
-	desc = "The spare ID of the High Lord himself."
-	registered_name = "Colony Director"
-	job_access_type = /datum/job/captain
 
 /obj/item/weapon/card/id/synthetic
 	name = "\improper Synthetic ID"
@@ -202,72 +181,12 @@
 	primary_color = rgb(189,237,237)
 	secondary_color = rgb(223,255,255)
 
-/obj/item/weapon/card/id/medical/doctor
-	assignment = "Medical Doctor"
-	rank = "Medical Doctor"
-	job_access_type = /datum/job/doctor
-
-/obj/item/weapon/card/id/medical/chemist
-	assignment = "Chemist"
-	rank = "Chemist"
-	job_access_type = /datum/job/chemist
-
-/obj/item/weapon/card/id/medical/geneticist
-	assignment = "Geneticist"
-	rank = "Geneticist"
-	job_access_type = /datum/job/doctor	//geneticist
-
-/obj/item/weapon/card/id/medical/psychiatrist
-	assignment = "Psychiatrist"
-	rank = "Psychiatrist"
-	job_access_type = /datum/job/psychiatrist
-
-/obj/item/weapon/card/id/medical/paramedic
-	assignment = "Paramedic"
-	rank = "Paramedic"
-	job_access_type = /datum/job/paramedic
-
-/obj/item/weapon/card/id/medical/head
-	name = "identification card"
-	desc = "A card which represents care and compassion."
-	icon_state = "medGold"
-	primary_color = rgb(189,237,237)
-	secondary_color = rgb(255,223,127)
-	assignment = "Chief Medical Officer"
-	rank = "Chief Medical Officer"
-	job_access_type = /datum/job/cmo
-
 /obj/item/weapon/card/id/security
 	name = "identification card"
 	desc = "A card issued to station security staff."
 	icon_state = "sec"
 	primary_color = rgb(189,47,0)
 	secondary_color = rgb(223,127,95)
-
-/obj/item/weapon/card/id/security/officer
-	assignment = "Security Officer"
-	rank = "Security Officer"
-	job_access_type = /datum/job/officer
-
-/obj/item/weapon/card/id/security/detective
-	assignment = "Detective"
-	rank = "Detective"
-	job_access_type = /datum/job/detective
-
-/obj/item/weapon/card/id/security/warden
-	assignment = "Warden"
-	rank = "Warden"
-	job_access_type = /datum/job/warden
-
-/obj/item/weapon/card/id/security/head
-	name = "identification card"
-	desc = "A card which represents honor and protection."
-	icon_state = "secGold"
-	primary_color = rgb(189,47,0)
-	secondary_color = rgb(255,223,127)
-	assignment = "Head of Security"
-	rank = "Head of Security"
-	job_access_type = /datum/job/hos
 
 /obj/item/weapon/card/id/engineering
 	name = "identification card"
@@ -276,26 +195,6 @@
 	primary_color = rgb(189,94,0)
 	secondary_color = rgb(223,159,95)
 
-/obj/item/weapon/card/id/engineering/engineer
-	assignment = "Station Engineer"
-	rank = "Station Engineer"
-	job_access_type = /datum/job/engineer
-
-/obj/item/weapon/card/id/engineering/atmos
-	assignment = "Atmospheric Technician"
-	rank = "Atmospheric Technician"
-	job_access_type = /datum/job/atmos
-
-/obj/item/weapon/card/id/engineering/head
-	name = "identification card"
-	desc = "A card which represents creativity and ingenuity."
-	icon_state = "engGold"
-	primary_color = rgb(189,94,0)
-	secondary_color = rgb(255,223,127)
-	assignment = "Chief Engineer"
-	rank = "Chief Engineer"
-	job_access_type = /datum/job/chief_engineer
-
 /obj/item/weapon/card/id/science
 	name = "identification card"
 	desc = "A card issued to station science staff."
@@ -303,57 +202,12 @@
 	primary_color = rgb(142,47,142)
 	secondary_color = rgb(191,127,191)
 
-/obj/item/weapon/card/id/science/scientist
-	assignment = "Scientist"
-	rank = "Scientist"
-	job_access_type = /datum/job/scientist
-
-/obj/item/weapon/card/id/science/xenobiologist
-	assignment = "Xenobiologist"
-	rank = "Xenobiologist"
-	job_access_type = /datum/job/xenobiologist
-
-/obj/item/weapon/card/id/science/roboticist
-	assignment = "Roboticist"
-	rank = "Roboticist"
-	job_access_type = /datum/job/roboticist
-
-/obj/item/weapon/card/id/science/head
-	name = "identification card"
-	desc = "A card which represents knowledge and reasoning."
-	icon_state = "sciGold"
-	primary_color = rgb(142,47,142)
-	secondary_color = rgb(255,223,127)
-	assignment = "Research Director"
-	rank = "Research Director"
-	job_access_type = /datum/job/rd
-
 /obj/item/weapon/card/id/cargo
 	name = "identification card"
 	desc = "A card issued to station cargo staff."
 	icon_state = "cargo"
 	primary_color = rgb(142,94,0)
 	secondary_color = rgb(191,159,95)
-
-/obj/item/weapon/card/id/cargo/cargo_tech
-	assignment = "Cargo Technician"
-	rank = "Cargo Technician"
-	job_access_type = /datum/job/cargo_tech
-
-/obj/item/weapon/card/id/cargo/mining
-	assignment = "Shaft Miner"
-	rank = "Shaft Miner"
-	job_access_type = /datum/job/mining
-
-/obj/item/weapon/card/id/cargo/head
-	name = "identification card"
-	desc = "A card which represents service and planning."
-	icon_state = "cargoGold"
-	primary_color = rgb(142,94,0)
-	secondary_color = rgb(255,223,127)
-	assignment = "Quartermaster"
-	rank = "Quartermaster"
-	job_access_type = /datum/job/qm
 
 /obj/item/weapon/card/id/assistant
 	assignment = "Assistant"
@@ -369,48 +223,6 @@
 	assignment = "Civilian"
 	rank = "Assistant"
 	job_access_type = /datum/job/assistant
-
-/obj/item/weapon/card/id/civilian/bartender
-	assignment = "Bartender"
-	rank = "Bartender"
-	job_access_type = /datum/job/bartender
-
-/obj/item/weapon/card/id/civilian/botanist
-	assignment = "Botanist"
-	rank = "Botanist"
-	job_access_type = /datum/job/hydro
-
-/obj/item/weapon/card/id/civilian/chaplain
-	assignment = "Chaplain"
-	rank = "Chaplain"
-	job_access_type = /datum/job/chaplain
-
-/obj/item/weapon/card/id/civilian/chef
-	assignment = "Chef"
-	rank = "Chef"
-	job_access_type = /datum/job/chef
-
-/obj/item/weapon/card/id/civilian/internal_affairs_agent
-	assignment = "Internal Affairs Agent"
-	rank = "Internal Affairs Agent"
-	job_access_type = /datum/job/lawyer
-
-/obj/item/weapon/card/id/civilian/janitor
-	assignment = "Janitor"
-	rank = "Janitor"
-	job_access_type = /datum/job/janitor
-
-/obj/item/weapon/card/id/civilian/librarian
-	assignment = "Librarian"
-	rank = "Librarian"
-	job_access_type = /datum/job/librarian
-
-/obj/item/weapon/card/id/civilian/head //This is not the HoP. There's no position that uses this right now.
-	name = "identification card"
-	desc = "A card which represents common sense and responsibility."
-	icon_state = "civGold"
-	primary_color = rgb(0,94,142)
-	secondary_color = rgb(255,223,127)
 
 /obj/item/weapon/card/id/external
 	name = "identification card"

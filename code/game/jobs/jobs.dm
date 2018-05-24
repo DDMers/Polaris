@@ -27,9 +27,6 @@ var/const/ROBOTICIST		=(1<<8)
 var/const/XENOBIOLOGIST		=(1<<9)
 var/const/PARAMEDIC			=(1<<10)
 
-
-var/const/CIVILIAN			=(1<<2)
-
 var/const/HOP				=(1<<0)
 var/const/BARTENDER			=(1<<1)
 var/const/BOTANIST			=(1<<2)
@@ -44,86 +41,132 @@ var/const/CHAPLAIN			=(1<<10)
 var/const/ASSISTANT			=(1<<11)
 var/const/BRIDGE			=(1<<12)
 
+//Ура, товарищсч! Ты русский!
+
+var/const/UU				=(1<<0)
+
+var/const/CPLEADER			=(1<<0)
+var/const/CPUNIT			=(1<<1)
+var/const/OVERWATCH			=(1<<2)
+
+var/const/CWU				=(1<<1)
+
+var/const/CWUMEDIC			=(1<<0)
+var/const/CWUMAINTAINER		=(1<<1)
+var/const/CWUINDUSTRIAL		=(1<<2)
+
+var/const/RESISTANCE		=(1<<2)
+
+var/const/RSLEADER			=(1<<0)
+var/const/RSMEDIC			=(1<<1)
+var/const/RSFIGHTER			=(1<<2)
+
+var/const/CIVILIAN			=(1<<3)
+
+var/const/CITIZEN			=(1<<0)
+
+var/list/civilian_occupations = list(
+	"Citizen"
+)
+
+var/list/civil_workers_union = list(
+	"Humanitarian Worker",
+	"Maintenance Worker",
+	"Industrial Worker",
+)
+
+var/list/universal_union = list(
+	"Civil Protection Team Leader",
+	"Civil Protection Unit",
+	"Overwatch",
+)
+
+var/list/resistance = list(
+	"Resistance Leader",
+	"Resistance Medic",
+	"Resistance Fighter",
+)
+
 
 var/list/assistant_occupations = list(
 )
 
 
 var/list/command_positions = list(
-	"Colony Director",
-	"Head of Personnel",
-	"Head of Security",
-	"Chief Engineer",
-	"Research Director",
-	"Chief Medical Officer",
-	"Command Secretary"
+//	"Colony Director",
+//	"Head of Personnel",
+//	"Head of Security",
+//	"Chief Engineer",
+//	"Research Director",
+//	"Chief Medical Officer",
+//	"Command Secretary"
 )
 
 
 var/list/engineering_positions = list(
-	"Chief Engineer",
-	"Station Engineer",
-	"Atmospheric Technician",
+//	"Chief Engineer",
+//	"Station Engineer",
+//	"Atmospheric Technician",
 )
 
 
 var/list/medical_positions = list(
-	"Chief Medical Officer",
-	"Medical Doctor",
-	"Geneticist",
-	"Psychiatrist",
-	"Chemist",
-	"Paramedic"
+//	"Chief Medical Officer",
+//	"Medical Doctor",
+//	"Geneticist",
+//	"Psychiatrist",
+//	"Chemist",
+//	"Paramedic"
 )
 
 
 var/list/science_positions = list(
-	"Research Director",
-	"Scientist",
-	"Geneticist",	//Part of both medical and science
-	"Roboticist",
-	"Xenobiologist"
+//	"Research Director",
+//	"Scientist",
+//	"Geneticist",	//Part of both medical and science
+//	"Roboticist",
+//	"Xenobiologist"
 )
 
 //BS12 EDIT
 var/list/cargo_positions = list(
-	"Quartermaster",
-	"Cargo Technician",
-	"Shaft Miner"
+//	"Quartermaster",
+//	"Cargo Technician",
+//	"Shaft Miner"
 )
 
 var/list/civilian_positions = list(
-	"Head of Personnel",
-	"Bartender",
-	"Botanist",
-	"Chef",
-	"Janitor",
-	"Librarian",
-	"Lawyer",
-	"Chaplain",
-	"Assistant"
+//	"Head of Personnel",
+//	"Bartender",
+//	"Botanist",
+//	"Chef",
+//	"Janitor",
+//	"Librarian",
+//	"Lawyer",
+//	"Chaplain",
+//	"Assistant"
 )
 
 
 var/list/security_positions = list(
-	"Head of Security",
-	"Warden",
-	"Detective",
-	"Security Officer"
+//	"Head of Security",
+//	"Warden",
+//	"Detective",
+//	"Security Officer"
 )
 
 
 var/list/planet_positions = list(
-	"Explorer",
-	"Pilot",
-	"Search and Rescue"
+//	"Explorer",
+//	"Pilot",
+//	"Search and Rescue"
 )
 
 
 var/list/nonhuman_positions = list(
-	"AI",
-	"Cyborg",
-	"pAI"
+//	"AI",
+//	"Cyborg",
+//	"pAI"
 )
 
 

@@ -16,19 +16,19 @@
 	uniform = /obj/item/clothing/under/rank/chief_engineer
 	l_ear = /obj/item/device/radio/headset/heads/ce
 	gloves = /obj/item/clothing/gloves/black
-	id_type = /obj/item/weapon/card/id/engineering/head
+	id_type = /obj/item/weapon/card/id
 	pda_type = /obj/item/device/pda/heads/ce
 
 /decl/hierarchy/outfit/job/engineering/engineer
 	name = OUTFIT_JOB_NAME("Engineer")
 	head = /obj/item/clothing/head/hardhat
 	uniform = /obj/item/clothing/under/rank/engineer
-	id_type = /obj/item/weapon/card/id/engineering/engineer
+	id_type = /obj/item/weapon/card/id
 	pda_type = /obj/item/device/pda/engineering
 
 /decl/hierarchy/outfit/job/engineering/atmos
 	name = OUTFIT_JOB_NAME("Atmospheric technician")
 	uniform = /obj/item/clothing/under/rank/atmospheric_technician
 	belt = /obj/item/weapon/storage/belt/utility/atmostech
-	id_type = /obj/item/weapon/card/id/engineering/atmos
+	id_type = /obj/item/weapon/card/id
 	pda_type = /obj/item/device/pda/atmos
