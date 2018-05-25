@@ -68,7 +68,7 @@
 /obj/random_multi/single_item/captains_spare_id
 	name = "Multi Point - Captain's Spare"
 	id = "Captain's spare id"
-	item_path = /obj/item/weapon/card/id/gold/captain/spare
+	item_path = /obj/item/weapon/card/id
 
 /obj/random_multi/single_item/sfr_headset
 	name = "Multi Point - headset"

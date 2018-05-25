@@ -10,6 +10,42 @@
 /*****************
 * Station access *
 *****************/
+/var/const/access_cwu = 1
+/datum/access/cwu
+	id = access_cwu
+	desc = "Civil Workers Union"
+	region = ACCESS_REGION_CWU
+
+/var/const/access_cwu_med = 2
+/datum/access/cwu_med
+	id = access_cwu_med
+	desc = "Medical"
+	region = ACCESS_REGION_CWU
+
+/var/const/access_cwu_maint = 3
+/datum/access/cwu_maint
+	id = access_cwu_maint
+	desc = "Maintenance"
+	region = ACCESS_REGION_CWU
+
+/var/const/access_uu = 4
+/datum/access/uu
+	id = access_uu
+	desc = "Nexus"
+	region = ACCESS_REGION_UU
+
+/var/const/access_uu_leader = 5
+/datum/access/uu_leader
+	id = access_uu_leader
+	desc = "Civil Protection Leader"
+	region = ACCESS_REGION_UU
+
+/var/const/access_resistance = 6
+/datum/access/resistance
+	id = access_resistance
+
+//TO-DO: Remove Below!
+
 /var/const/access_security = 1
 /datum/access/security
 	id = access_security
