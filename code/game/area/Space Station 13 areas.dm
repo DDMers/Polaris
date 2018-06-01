@@ -2643,6 +2643,11 @@ area/space/atmosalert()
 	requires_power = 0
 	icon_state = "sewers"
 
+/area/city13/street
+	name = "Street"
+	requires_power = 0
+	icon_state = "street"
+
 //////////////////////////////////////
 
 /area/awaymission/beach
