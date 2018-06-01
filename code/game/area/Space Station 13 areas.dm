@@ -2611,6 +2611,45 @@ area/space/atmosalert()
 	icon_state = "away"
 	requires_power = 0
 
+// City 13 Areas
+
+/area/city13/plaza
+	name = "Plaza"
+	requires_power = 0
+	icon_state = "plaza"
+
+/area/city13/slums
+	name = "Slums"
+	requires_power = 0
+	icon_state = "slums"
+
+/area/city13/nexus
+	name = "Nexus"
+	requires_power = 0
+	icon_state = "nexus"
+
+/area/city13/housingblock
+	name = "Housing Block"
+	requires_power = 0
+	icon_state = "housingblock"
+
+/area/city13/combineworkshop
+	name = "Combine Workshop"
+	requires_power = 0
+	icon_state = "combineworkshop"
+
+/area/city13/sewers
+	name = "Sewers"
+	requires_power = 0
+	icon_state = "sewers"
+
+/area/city13/street
+	name = "Street"
+	requires_power = 0
+	icon_state = "street"
+
+//////////////////////////////////////
+
 /area/awaymission/beach
 	name = "Beach"
 	icon_state = "null"
